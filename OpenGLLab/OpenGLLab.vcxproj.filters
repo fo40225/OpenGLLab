@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="OpenGLLab.h">
@@ -38,18 +32,5 @@
     <ClCompile Include="OpenGLLab.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="OpenGLLab.rc">
-      <Filter>資源檔</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="small.ico">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="OpenGLLab.ico">
-      <Filter>資源檔</Filter>
-    </Image>
   </ItemGroup>
 </Project>
