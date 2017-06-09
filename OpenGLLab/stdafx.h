@@ -18,6 +18,8 @@
 #include <tchar.h>
 
 // OpenGL header
-// #define GLEW_STATIC // if link glew32s.lib
+// #define GLEW_STATIC // if link to glew32s.lib
 #include <GL/glew.h>
+
+#define GLFW_DLL // if link to glfw3dll.lib
 #include <GLFW/glfw3.h>
